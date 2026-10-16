@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achraf Khoualdi - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">&lt;Achraf/&gt;</a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links" id="navLinks">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact" class="nav-btn">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <span class="greeting">Hello, I'm</span>
+                    <h1>Achraf Khoualdi</h1>
+                    <h2 class="hero-subtitle">Full Stack &amp; Mobile Developer | Cybersecurity Engineer</h2>
+                    <p class="hero-desc">
+                        Passionate about building innovative web and mobile solutions and crafting secure digital experiences. Currently pursuing Engineering in Networks &amp; Cybersecurity at ENSTA.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrap">
+                    <img src="images/profile.jpg" alt="Achraf Khoualdi" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p class="about-text">
+                        I'm a Full Stack &amp; Mobile App Developer and aspiring Cybersecurity Engineer with expertise in modern web and mobile technologies. I create cross-platform digital solutions that make a difference, blending sleek interfaces with secure backend architectures.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-num">7+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num">3+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Experience &amp; Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">2026</div>
+                        <div class="timeline-info">
+                            <h3>Senior Mobile Developer - Bawsala Logistics</h3>
+                            <p>Senior Mobile Developer for Bawsala Logistics, an Omani logistics solution company connecting carriers and truck drivers with customers to manage shipments and coordinate offers.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2025 - 2026</div>
+                        <div class="timeline-info">
+                            <h3>Senior Full-Stack Developer - Development Agency</h3>
+                            <p>Worked as a Senior Full-Stack Developer at an Algerian development agency, building and maintaining robust full-stack web applications with modern frontend and backend technologies.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2026</div>
+                        <div class="timeline-info">
+                            <h3>Senior Mobile Developer - Kawn</h3>
+                            <p>Senior Mobile Developer for Kawn, an Omani social media app designed to foster meaningful connections, enabling users to share thoughts, photos, and videos in a safe, inclusive space.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2024</div>
+                        <div class="timeline-info">
+                            <h3>Organizing Committee Member - NCASE'24</h3>
+                            <p>Contributed to organizing the first National Conference of Applied Sciences and Engineering, hosted by ENSTA and LSA. Assisted in logistics, coordination, and supporting speakers.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2024</div>
+                        <div class="timeline-info">
+                            <h3>Participant - RoboCo Sumo Robots Competition</h3>
+                            <p>Designed, coded, and tested an autonomous sumo robot. Reached the semifinals among dozens of teams.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2023 - Present</div>
+                        <div class="timeline-info">
+                            <h3>Engineering Student - ENSTA</h3>
+                            <p>Specializing in Networks &amp; Cybersecurity. Hands-on labs with security tools, CTF challenges, and system analysis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="tabs-container">
+                    <button class="tab-btn active" data-tab="websites">Websites</button>
+                    <button class="tab-btn" data-tab="mobile">Mobile Apps</button>
+                    <button class="tab-btn" data-tab="desktop">Desktop Apps</button>
+                </div>
+
+                <div class="tab-content active" id="websites">
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>AlkoCars – Car Selling &amp; Importing Platform</h3>
+                            </div>
+                            <p class="project-desc">Full-stack web application for selling cars and importing them from South Korea to Algeria. Includes an Admin Dashboard with overview analytics, cars/brands/payments management, and PDF generator for contracts and invoices.</p>
+                            <div class="project-tags">
+                                <span>Next.js</span>
+                                <span>TailwindCSS</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://samex-one.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-link">Live Demo</a>
+                                <a href="https://github.com/achrafkh5" target="_blank" rel="noopener noreferrer" class="btn-link">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>CHZ Store – E-Commerce Platform</h3>
+                            </div>
+                            <p class="project-desc">Modern, responsive e-commerce web application designed for a retail client. Features intuitive product browsing, dynamic filtering, shopping cart management, and a seamless digital checkout workflow.</p>
+                            <div class="project-tags">
+                                <span>Next.js</span>
+                                <span>TailwindCSS</span>
+                                <span>React</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://chz-store.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-link">Live Demo</a>
+                                <a href="https://github.com/achrafkh5" target="_blank" rel="noopener noreferrer" class="btn-link">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>MK Exports</h3>
+                            </div>
+                            <p class="project-desc">Official website for MK Exports, an Algerian company specializing in exporting local products to global markets, featuring product catalogues and contact portals.</p>
+                            <div class="project-tags">
+                                <span>Next.js</span>
+                                <span>React</span>
+                                <span>TailwindCSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://mk-exports.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-link">Live Demo</a>
+                                <a href="https://github.com/achrafkh5" target="_blank" rel="noopener noreferrer" class="btn-link">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>Bayti</h3>
+                            </div>
+                            <p class="project-desc">Real estate platform connecting buyers and sellers in the Algerian market with virtual tours, user listings, and fast query filters.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Supabase</span>
+                                <span>TailwindCSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://bayti-p.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-link">Live Demo</a>
+                                <a href="https://github.com/achrafkhl/bayti" target="_blank" rel="noopener noreferrer" class="btn-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="mobile">
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>CarZone</h3>
+                            </div>
+                            <p class="project-desc">Role-based mobile marketplace for car trading. Sellers can list vehicles for sale, track their cars in real-time using GPS, and manage listings, while buyers can locate nearby vehicles and purchase parts.</p>
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Firebase</span>
+                                <span>Google Maps API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/achrafkh5" target="_blank" rel="noopener noreferrer" class="btn-link">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>Linglizya</h3>
+                            </div>
+                            <p class="project-desc">Interactive English learning app featuring quizzes, games, and adaptive learning powered by AI. Evaluates user performance and dynamically adjusts difficulty levels.</p>
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>AI Integration</span>
+                                <span>Firebase</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/achrafkh5" target="_blank" rel="noopener noreferrer" class="btn-link">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>HomeCare</h3>
+                            </div>
+                            <p class="project-desc">Healthcare mobile platform connecting patients with nearby doctors. Users can book appointments, chat directly with doctors, and locate providers using GPS.</p>
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Firebase</span>
+                                <span>Google Maps API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/achrafkh5" target="_blank" rel="noopener noreferrer" class="btn-link">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>Naqra Pay</h3>
+                            </div>
+                            <p class="project-desc">Smart restaurant and café platform allowing users to discover nearby spots, browse rankings, reserve tables, and pay digitally.</p>
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Stripe / Payments</span>
+                                <span>Firebase</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/achrafkh5" target="_blank" rel="noopener noreferrer" class="btn-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="desktop">
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>Hammam POS Desktop App</h3>
+                            </div>
+                            <p class="project-desc">Desktop point-of-sale system built for a Hammam. Features stock, client and worker management, plus safe-key management for locker keys. Designed for POS machines with a fast and intuitive interface.</p>
+                            <div class="project-tags">
+                                <span>Electron</span>
+                                <span>React</span>
+                                <span>SQLite</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/achrafkh5" target="_blank" rel="noopener noreferrer" class="btn-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Skills &amp; Technologies</h2>
+                <div class="skills-wrapper">
+                    <div class="skill-category">
+                        <h3>Mobile &amp; Frontend</h3>
+                        <ul class="skills-list">
+                            <li>Flutter</li>
+                            <li>Dart</li>
+                            <li>React</li>
+                            <li>Next.js</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                            <li>Tailwind CSS</li>
+                            <li>HTML5 / CSS3</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <ul class="skills-list">
+                            <li>Node.js</li>
+                            <li>Python</li>
+                            <li>Firebase</li>
+                            <li>MongoDB</li>
+                            <li>Supabase</li>
+                            <li>REST APIs</li>
+                            <li>SQLite</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Tools &amp; Others</h3>
+                        <ul class="skills-list">
+                            <li>Git &amp; GitHub</li>
+                            <li>Docker</li>
+                            <li>Google Play Console</li>
+                            <li>Apple App Store</li>
+                            <li>Webpack</li>
+                            <li>Cybersecurity / Pentesting</li>
+                            <li>Electron</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-box">
+                    <p class="contact-intro">I'm always open to discussing new projects, creative ideas, or opportunities in software development and cybersecurity.</p>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Achraf Khoualdi">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required placeholder="achraf@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                        <div id="formStatus" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Achraf Khoualdi. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/achrafkh5" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/achraf-khoualdi-bab640364/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://www.instagram.com/_achraf_kh__/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
